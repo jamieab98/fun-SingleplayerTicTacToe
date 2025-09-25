@@ -21,113 +21,162 @@ function computerTurn() {
         box6.textContent == "" &&
         box7.textContent == "" &&
         box8.textContent == "" &&
-        box9.textContent == "")
-        {
-            box5.textContent = "O"
-    }
-    else if (
-        box1.textContent == "" &&
-        box2.textContent == "X" &&
-        box3.textContent == "" &&
-        box4.textContent == "" &&
-        box5.textContent == "" &&
-        box6.textContent == "" &&
-        box7.textContent == "" &&
-        box8.textContent == "" &&
-        box9.textContent == "")
-        {
+        box9.textContent == ""){
             box5.textContent = "O"
         }
-    else if (
-        box1.textContent == "" &&
+    else if (box1.textContent == "X" &&
         box2.textContent == "" &&
         box3.textContent == "X" &&
         box4.textContent == "" &&
-        box5.textContent == "" &&
+        box5.textContent == "O" &&
         box6.textContent == "" &&
         box7.textContent == "" &&
         box8.textContent == "" &&
-        box9.textContent == "")
-        {
-            box5.textContent = "O"
+        box9.textContent == "") {
+            box2.textContent = "O"
         }
-    else if (
-        box1.textContent == "" &&
-        box2.textContent == "" &&
-        box3.textContent == "" &&
-        box4.textContent == "X" &&
-        box5.textContent == "" &&
-        box6.textContent == "" &&
-        box7.textContent == "" &&
-        box8.textContent == "" &&
-        box9.textContent == "")
-        {    
-            box5.textContent = "O";
-        }
-    else if (
-        box1.textContent == "" &&
-        box2.textContent == "" &&
-        box3.textContent == "" &&
+    else if (box1.textContent == "X" &&
+        box2.textContent == "O" &&
+        box3.textContent == "X" &&
         box4.textContent == "" &&
-        box5.textContent == "X" &&
-        box6.textContent == "" &&
-        box7.textContent == "" &&
-        box8.textContent == "" &&
-        box9.textContent == "")
-        {
-            box1.textContent = "O"
-        }
-    else if (
-        box1.textContent == "" &&
-        box2.textContent == "" &&
-        box3.textContent == "" &&
-        box4.textContent == "" &&
-        box5.textContent == "" &&
-        box6.textContent == "X" &&
-        box7.textContent == "" &&
-        box8.textContent == "" &&
-        box9.textContent == "")
-        {
-            box5.textContent = "O"
-        }
-    else if (
-        box1.textContent == "" &&
-        box2.textContent == "" &&
-        box3.textContent == "" &&
-        box4.textContent == "" &&
-        box5.textContent == "" &&
-        box6.textContent == "" &&
-        box7.textContent == "X" &&
-        box8.textContent == "" &&
-        box9.textContent == "")
-        {
-            box5.textContent = "O"
-        }
-    else if (
-        box1.textContent == "" &&
-        box2.textContent == "" &&
-        box3.textContent == "" &&
-        box4.textContent == "" &&
-        box5.textContent == "" &&
+        box5.textContent == "O" &&
         box6.textContent == "" &&
         box7.textContent == "" &&
         box8.textContent == "X" &&
-        box9.textContent == "")
-        {
-            box5.textContent = "O"
+        box9.textContent == ""){
+            box4.textContent = "O"
         }
-    else if (
-        box1.textContent == "" &&
-        box2.textContent == "" &&
+    else if (box1.textContent == "X" &&
+        box2.textContent == "O" &&
+        box3.textContent == "X" &&
+        box4.textContent == "O" &&
+        box5.textContent == "O" &&
+        box6.textContent == "" &&
+        box7.textContent == "" &&
+        box8.textContent == "X" &&
+        box9.textContent == ""){
+            box6.textContent = "O"
+        }
+    else if (box1.textContent == "X" &&
+        box2.textContent == "O" &&
+        box3.textContent == "X" &&
+        box4.textContent == "O" &&
+        box5.textContent == "O" &&
+        box6.textContent == "X" &&
+        box7.textContent == "" &&
+        box8.textContent == "X" &&
+        box9.textContent == ""){
+            box9.textContent = "O"
+        }
+    else if (box1.textContent == "X" &&
+        box2.textContent == "O" &&
+        box3.textContent == "X" &&
+        box4.textContent == "O" &&
+        box5.textContent == "O" &&
+        box6.textContent == "X" &&
+        box7.textContent == "X" &&
+        box8.textContent == "X" &&
+        box9.textContent == "O"){
+            //show that the game is over
+        }
+    else if (box1.textContent == "X" &&
+        box2.textContent == "X" &&
         box3.textContent == "" &&
         box4.textContent == "" &&
-        box5.textContent == "" &&
+        box5.textContent == "O" &&
         box6.textContent == "" &&
         box7.textContent == "" &&
         box8.textContent == "" &&
-        box9.textContent == "X")
-        {
-            box5.textContent = "O"
+        box9.textContent == ""){
+            box3.textContent = "O"
+        }
+    else if (box1.textContent == "X" &&
+        box2.textContent == "X" &&
+        box3.textContent == "O" &&
+        box4.textContent == "" &&
+        box5.textContent == "O" &&
+        box6.textContent == "" &&
+        box7.textContent == "X" &&
+        box8.textContent == "" &&
+        box9.textContent == ""){
+            box4.textContent = "O"
+        }
+    else if (box1.textContent == "X" &&
+        box2.textContent == "X" &&
+        box3.textContent == "O" &&
+        box4.textContent == "O" &&
+        box5.textContent == "O" &&
+        box6.textContent == "X" &&
+        box7.textContent == "X" &&
+        box8.textContent == "" &&
+        box9.textContent == ""){
+            box8.textContent = "O"
+        }
+    else if (box1.textContent == "X" &&
+        box2.textContent == "X" &&
+        box3.textContent == "O" &&
+        box4.textContent == "O" &&
+        box5.textContent == "O" &&
+        box6.textContent == "X" &&
+        box7.textContent == "X" &&
+        box8.textContent == "O" &&
+        box9.textContent == "X"){
+            //show that the game is over
+        }
+    else if (box1.textContent == "X" &&
+        box2.textContent == "" &&
+        box3.textContent == "" &&
+        box4.textContent == "X" &&
+        box5.textContent == "O" &&
+        box6.textContent == "" &&
+        box7.textContent == "" &&
+        box8.textContent == "" &&
+        box9.textContent == ""){
+            box7.textContent = "O"
+        }
+    else if (box1.textContent == "X" &&
+        box2.textContent == "" &&
+        box3.textContent == "" &&
+        box4.textContent == "X" &&
+        box5.textContent == "O" &&
+        box6.textContent == "" &&
+        box7.textContent == "O" &&
+        box8.textContent == "" &&
+        box9.textContent == ""){
+            box3.textContent = "O"
+        }
+    else if(box1.textContent == "X" &&
+        box2.textContent == "" &&
+        box3.textContent == "X" &&
+        box4.textContent == "X" &&
+        box5.textContent == "O" &&
+        box6.textContent == "" &&
+        box7.textContent == "O" &&
+        box8.textContent == "" &&
+        box9.textContent == ""){
+            box2.textContent = "O"
+        }
+    else if(box1.textContent == "X" &&
+        box2.textContent == "O" &&
+        box3.textContent == "X" &&
+        box4.textContent == "X" &&
+        box5.textContent == "O" &&
+        box6.textContent == "" &&
+        box7.textContent == "O" &&
+        box8.textContent == "X" &&
+        box9.textContent == ""){
+            box6.textContent = "O"
+        }
+    else if (box1.textContent == "X" &&
+        box2.textContent == "O" &&
+        box3.textContent == "X" &&
+        box4.textContent == "X" &&
+        box5.textContent == "O" &&
+        box6.textContent == "O" &&
+        box7.textContent == "O" &&
+        box8.textContent == "X" &&
+        box9.textContent == "X"){
+            //show that the game is over
         }
 }
 
@@ -136,7 +185,7 @@ box1.addEventListener("click", () => {
     if (turn == "user" && box1.textContent == "") {
         box1.textContent = "X";
         turn = "computer";
-        setTimeout(computerTurn, 2000);
+        setTimeout(computerTurn, 500);
     }
     else {
         //put in a message to wait your turn
@@ -146,7 +195,7 @@ box2.addEventListener("click", () => {
     if (turn == "user" && box2.textContent == "") {
         box2.textContent = "X";
         turn = "computer";
-        setTimeout(computerTurn, 2000);
+        setTimeout(computerTurn, 500);
     }
     else {
 
@@ -156,7 +205,7 @@ box3.addEventListener("click", () => {
     if (turn == "user" && box3.textContent == "") {
         box3.textContent = "X";
         turn = "computer";
-        setTimeout(computerTurn, 2000);
+        setTimeout(computerTurn, 500);
     }
     else {
 
@@ -166,7 +215,7 @@ box4.addEventListener("click", () => {
     if (turn == "user" && box4.textContent == "") {
         box4.textContent = "X";
         turn = "computer";
-        setTimeout(computerTurn, 2000);
+        setTimeout(computerTurn, 500);
     }
     else {
 
@@ -176,7 +225,7 @@ box5.addEventListener("click", () => {
     if (turn == "user" && box5.textContent == "") {
         box5.textContent = "X";
         turn = "computer";
-        setTimeout(computerTurn, 2000);
+        setTimeout(computerTurn, 500);
     }
     else {
 
@@ -186,7 +235,7 @@ box6.addEventListener("click", () => {
     if (turn == "user" && box6.textContent == "") {
         box6.textContent = "X";
         turn = "computer";
-        setTimeout(computerTurn, 2000);
+        setTimeout(computerTurn, 500);
     }
     else {
 
@@ -196,7 +245,7 @@ box7.addEventListener("click", () => {
     if (turn == "user" && box7.textContent == "") {
         box7.textContent = "X";
         turn = "computer";
-        setTimeout(computerTurn, 2000);
+        setTimeout(computerTurn, 500);
     }
     else {
 
@@ -206,7 +255,7 @@ box8.addEventListener("click", () => {
     if (turn == "user" && box8.textContent == "") {
         box8.textContent = "X";
         turn = "computer";
-        setTimeout(computerTurn, 2000);
+        setTimeout(computerTurn, 500);
     }
     else {
 
@@ -216,7 +265,7 @@ box9.addEventListener("click", () => {
     if (turn == "user" && box9.textContent == "") {
         box9.textContent = "X";
         turn = "computer";
-        setTimeout(computerTurn, 2000);
+        setTimeout(computerTurn, 500);
     }
     else {
 
