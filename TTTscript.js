@@ -860,6 +860,51 @@ function computerTurn() {
         box9.textContent == "X"){
             //show that the game is over
         }
+    else if (box4.textContent == "X" &&
+        box1.textContent == "" &&
+        box2.textContent == "" &&
+        box3.textContent == "" &&
+        box5.textContent == "" &&
+        box6.textContent == "" &&
+        box7.textContent == "" &&
+        box8.textContent == "" &&
+        box9.textContent == ""){
+            box5.textContent = "O"
+        }
+    else if (box4.textContent == "X" &&
+        box1.textContent == "" &&
+        box2.textContent == "" &&
+        box3.textContent == "" &&
+        box5.textContent == "O" &&
+        box6.textContent == "X" &&
+        box7.textContent == "" &&
+        box8.textContent == "" &&
+        box9.textContent == ""){
+            box1.textContent = "O"
+        }
+    else if (box4.textContent == "X" &&
+        box1.textContent == "O" &&
+        box2.textContent == "" &&
+        box3.textContent == "" &&
+        box5.textContent == "O" &&
+        box6.textContent == "X" &&
+        box7.textContent == "" &&
+        box8.textContent == "" &&
+        box9.textContent == "X"){
+            box3.textContent = "O"
+        }
+    else if (box4.textContent == "X" &&
+        box1.textContent == "O" &&
+        box2.textContent == "X" &&
+        box3.textContent == "O" &&
+        box5.textContent == "O" &&
+        box6.textContent == "X" &&
+        box7.textContent == "" &&
+        box8.textContent == "" &&
+        box9.textContent == "X"){
+            box7.textContent = "O"
+            //show that the game is over
+        }
 }
 
 
