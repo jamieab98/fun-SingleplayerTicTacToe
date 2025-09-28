@@ -905,6 +905,7 @@ function computerTurn() {
             box7.textContent = "O"
             //show that the game is over
         }
+    
 }
 
 
