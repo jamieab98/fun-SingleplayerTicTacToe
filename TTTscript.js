@@ -905,7 +905,149 @@ function computerTurn() {
             box7.textContent = "O"
             //show that the game is over
         }
-    
+    else if (box4.textContent == "X" &&
+        box1.textContent == "" &&
+        box2.textContent == "" &&
+        box3.textContent == "" &&
+        box5.textContent == "O" &&
+        box6.textContent == "" &&
+        box7.textContent == "X" &&
+        box8.textContent == "" &&
+        box9.textContent == ""){
+            box1.textContent = "O"
+        }
+    else if (box4.textContent == "X" &&
+        box1.textContent == "O" &&
+        box2.textContent == "" &&
+        box3.textContent == "" &&
+        box5.textContent == "O" &&
+        box6.textContent == "" &&
+        box7.textContent == "X" &&
+        box8.textContent == "" &&
+        box9.textContent == "X"){
+            box8.textContent = "O"
+        }
+    else if (box4.textContent == "X" &&
+        box1.textContent == "O" &&
+        box2.textContent == "X" &&
+        box3.textContent == "" &&
+        box5.textContent == "O" &&
+        box6.textContent == "" &&
+        box7.textContent == "X" &&
+        box8.textContent == "O" &&
+        box9.textContent == "X"){
+            box3.textContent = "O"
+        }
+    else if (box4.textContent == "X" &&
+        box1.textContent == "O" &&
+        box2.textContent == "X" &&
+        box3.textContent == "O" &&
+        box5.textContent == "O" &&
+        box6.textContent == "X" &&
+        box7.textContent == "X" &&
+        box8.textContent == "O" &&
+        box9.textContent == "X"){
+            //show that the game is over
+        }
+    else if (box4.textContent == "X" &&
+        box1.textContent == "" &&
+        box2.textContent == "" &&
+        box3.textContent == "" &&
+        box5.textContent == "O" &&
+        box6.textContent == "" &&
+        box7.textContent == "" &&
+        box8.textContent == "X" &&
+        box9.textContent == ""){
+            box7.textContent = "O"
+        }
+    else if (box4.textContent == "X" &&
+        box1.textContent == "" &&
+        box2.textContent == "" &&
+        box3.textContent == "X" &&
+        box5.textContent == "O" &&
+        box6.textContent == "" &&
+        box7.textContent == "O" &&
+        box8.textContent == "X" &&
+        box9.textContent == ""){
+            box1.textContent = "O"
+        }
+    else if (box4.textContent == "X" &&
+        box1.textContent == "O" &&
+        box2.textContent == "" &&
+        box3.textContent == "X" &&
+        box5.textContent == "O" &&
+        box6.textContent == "" &&
+        box7.textContent == "O" &&
+        box8.textContent == "X" &&
+        box9.textContent == "X"){
+            box6.textContent = "O"
+        }
+    else if (box4.textContent == "X" &&
+        box1.textContent == "O" &&
+        box2.textContent == "X" &&
+        box3.textContent == "X" &&
+        box5.textContent == "O" &&
+        box6.textContent == "O" &&
+        box7.textContent == "O" &&
+        box8.textContent == "X" &&
+        box9.textContent == "X"){
+            //show that the game is over
+        }
+    else if (box4.textContent == "X" &&
+        box1.textContent == "" &&
+        box2.textContent == "" &&
+        box3.textContent == "" &&
+        box5.textContent == "O" &&
+        box6.textContent == "" &&
+        box7.textContent == "" &&
+        box8.textContent == "" &&
+        box9.textContent == "X"){
+            box2.textContent = "O"
+        }
+    else if (box4.textContent == "X" &&
+        box1.textContent == "" &&
+        box2.textContent == "O" &&
+        box3.textContent == "" &&
+        box5.textContent == "O" &&
+        box6.textContent == "" &&
+        box7.textContent == "" &&
+        box8.textContent == "X" &&
+        box9.textContent == "X"){
+            box7.textContent = "O"
+        }
+    else if (box4.textContent == "X" &&
+        box1.textContent == "" &&
+        box2.textContent == "O" &&
+        box3.textContent == "X" &&
+        box5.textContent == "O" &&
+        box6.textContent == "" &&
+        box7.textContent == "O" &&
+        box8.textContent == "X" &&
+        box9.textContent == "X"){
+            box6.textContent = "O"
+        }
+    else if (box4.textContent == "X" &&
+        box1.textContent == "X" &&
+        box2.textContent == "O" &&
+        box3.textContent == "X" &&
+        box5.textContent == "O" &&
+        box6.textContent == "O" &&
+        box7.textContent == "O" &&
+        box8.textContent == "X" &&
+        box9.textContent == "X"){
+            //show that the game is over
+        }
+    else if (box6.textContent == "X" &&
+        box1.textContent == "" &&
+        box2.textContent == "" &&
+        box3.textContent == "" &&
+        box4.textContent == "" &&
+        box5.textContent == "" &&
+        box7.textContent == "" &&
+        box8.textContent == "" &&
+        box9.textContent == ""){
+            box5.textContent = "O"
+        }
 }
 
 
