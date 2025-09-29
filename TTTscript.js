@@ -1312,6 +1312,17 @@ function computerTurn() {
         box9.textContent == "X"){
             //show that the game is over
         }
+    else if (box9.textContent == "X" &&
+        box1.textContent == "" &&
+        box2.textContent == "" &&
+        box3.textContent == "" &&
+        box4.textContent == "" &&
+        box5.textContent == "" &&
+        box6.textContent == "" &&
+        box7.textContent == "" &&
+        box8.textContent == ""){
+            box5.textContent = "O"
+        }
 }
 
 
